@@ -306,95 +306,17 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>48</xloc>
-      <yloc>352</yloc>
+      <yloc>336</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
-      <name>01_Get_Open_Periods</name>
+      <name>01_Unrar_Files</name>
       <description/>
       <type>TRANS</type>
       <attributes/>
       <specification_method>filename</specification_method>
       <trans_object_id/>
-      <filename>C:/Desarrollo/Proyectos/Serdeco/Pentaho/01_Get_Open_Period.ktr</filename>
-      <transname/>
-      <arg_from_previous>N</arg_from_previous>
-      <params_from_previous>N</params_from_previous>
-      <exec_per_row>N</exec_per_row>
-      <clear_rows>N</clear_rows>
-      <clear_files>N</clear_files>
-      <set_logfile>N</set_logfile>
-      <logfile/>
-      <logext/>
-      <add_date>N</add_date>
-      <add_time>N</add_time>
-      <loglevel>Basic</loglevel>
-      <cluster>N</cluster>
-      <slave_server_name/>
-      <set_append_logfile>N</set_append_logfile>
-      <wait_until_finished>Y</wait_until_finished>
-      <follow_abort_remote>N</follow_abort_remote>
-      <create_parent_folder>N</create_parent_folder>
-      <logging_remote_work>N</logging_remote_work>
-      <run_configuration>Pentaho local</run_configuration>
-      <suppress_result_data>N</suppress_result_data>
-      <parameters>
-        <pass_all_parameters>Y</pass_all_parameters>
-      </parameters>
-      <parallel>N</parallel>
-      <draw>Y</draw>
-      <nr>0</nr>
-      <xloc>640</xloc>
-      <yloc>384</yloc>
-      <attributes_kjc/>
-    </entry>
-    <entry>
-      <name>03_Generate_Filenames</name>
-      <description/>
-      <type>TRANS</type>
-      <attributes/>
-      <specification_method>filename</specification_method>
-      <trans_object_id/>
-      <filename>C:/Desarrollo/Proyectos/Serdeco/Pentaho/03_Generate_Filenames.ktr</filename>
-      <transname/>
-      <arg_from_previous>N</arg_from_previous>
-      <params_from_previous>N</params_from_previous>
-      <exec_per_row>N</exec_per_row>
-      <clear_rows>N</clear_rows>
-      <clear_files>N</clear_files>
-      <set_logfile>N</set_logfile>
-      <logfile/>
-      <logext/>
-      <add_date>N</add_date>
-      <add_time>N</add_time>
-      <loglevel>Basic</loglevel>
-      <cluster>N</cluster>
-      <slave_server_name/>
-      <set_append_logfile>N</set_append_logfile>
-      <wait_until_finished>Y</wait_until_finished>
-      <follow_abort_remote>N</follow_abort_remote>
-      <create_parent_folder>N</create_parent_folder>
-      <logging_remote_work>N</logging_remote_work>
-      <run_configuration>Pentaho local</run_configuration>
-      <suppress_result_data>N</suppress_result_data>
-      <parameters>
-        <pass_all_parameters>Y</pass_all_parameters>
-      </parameters>
-      <parallel>N</parallel>
-      <draw>Y</draw>
-      <nr>0</nr>
-      <xloc>1136</xloc>
-      <yloc>384</yloc>
-      <attributes_kjc/>
-    </entry>
-    <entry>
-      <name>02_Unrar_Files</name>
-      <description/>
-      <type>TRANS</type>
-      <attributes/>
-      <specification_method>filename</specification_method>
-      <trans_object_id/>
-      <filename>C:/Desarrollo/Proyectos/Serdeco/Pentaho/02_Unrar_Files.ktr</filename>
+      <filename>C:/Desarrollo/Proyectos/Serdeco/Pentaho/01_Unrar_Files.ktr</filename>
       <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
@@ -423,23 +345,83 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>336</xloc>
-      <yloc>352</yloc>
+      <yloc>336</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>02_Generate_Filenames</name>
+      <description/>
+      <type>TRANS</type>
+      <attributes/>
+      <specification_method>filename</specification_method>
+      <trans_object_id/>
+      <filename>C:/Desarrollo/Proyectos/Serdeco/Pentaho/02_Generate_Filenames.ktr</filename>
+      <transname/>
+      <arg_from_previous>N</arg_from_previous>
+      <params_from_previous>N</params_from_previous>
+      <exec_per_row>N</exec_per_row>
+      <clear_rows>N</clear_rows>
+      <clear_files>N</clear_files>
+      <set_logfile>N</set_logfile>
+      <logfile/>
+      <logext/>
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <loglevel>Basic</loglevel>
+      <cluster>N</cluster>
+      <slave_server_name/>
+      <set_append_logfile>N</set_append_logfile>
+      <wait_until_finished>Y</wait_until_finished>
+      <follow_abort_remote>N</follow_abort_remote>
+      <create_parent_folder>N</create_parent_folder>
+      <logging_remote_work>N</logging_remote_work>
+      <run_configuration>Pentaho local</run_configuration>
+      <suppress_result_data>N</suppress_result_data>
+      <parameters>
+        <pass_all_parameters>Y</pass_all_parameters>
+      </parameters>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>880</xloc>
+      <yloc>336</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Write to log</name>
+      <description/>
+      <type>WRITE_TO_LOG</type>
+      <attributes/>
+      <logmessage/>
+      <loglevel/>
+      <logsubject/>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>576</xloc>
+      <yloc>336</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Write to log 2</name>
+      <description/>
+      <type>WRITE_TO_LOG</type>
+      <attributes/>
+      <logmessage/>
+      <loglevel/>
+      <logsubject/>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>1136</xloc>
+      <yloc>336</yloc>
       <attributes_kjc/>
     </entry>
   </entries>
   <hops>
     <hop>
-      <from>01_Get_Open_Periods</from>
-      <to>03_Generate_Filenames</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
       <from>Start</from>
-      <to>02_Unrar_Files</to>
+      <to>01_Unrar_Files</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -447,8 +429,26 @@
       <unconditional>Y</unconditional>
     </hop>
     <hop>
-      <from>02_Unrar_Files</from>
-      <to>01_Get_Open_Periods</to>
+      <from>01_Unrar_Files</from>
+      <to>Write to log</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Write to log</from>
+      <to>02_Generate_Filenames</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>02_Generate_Filenames</from>
+      <to>Write to log 2</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -506,34 +506,9 @@ Objetivo: Coordinar la ejecución secuencial de todas las transformaciones.
       <drawshadow>Y</drawshadow>
     </notepad>
     <notepad>
-      <note>Step 1: Ejecutar la Transformación 01_Get_Open_Periods.ktr
-Objetivo: Obtener todas las combinaciones cod_serdeco +
- periodo con estatus abierto (estatus = true).
-
-</note>
-      <xloc>544</xloc>
-      <yloc>224</yloc>
-      <width>321</width>
-      <heigth>88</heigth>
-      <fontname>Segoe UI</fontname>
-      <fontsize>9</fontsize>
-      <fontbold>N</fontbold>
-      <fontitalic>N</fontitalic>
-      <fontcolorred>0</fontcolorred>
-      <fontcolorgreen>0</fontcolorgreen>
-      <fontcolorblue>0</fontcolorblue>
-      <backgroundcolorred>0</backgroundcolorred>
-      <backgroundcolorgreen>255</backgroundcolorgreen>
-      <backgroundcolorblue>0</backgroundcolorblue>
-      <bordercolorred>100</bordercolorred>
-      <bordercolorgreen>100</bordercolorgreen>
-      <bordercolorblue>100</bordercolorblue>
-      <drawshadow>Y</drawshadow>
-    </notepad>
-    <notepad>
-      <note>Step 2: 02_Unrar_Files.ktr
+      <note>Step 1: 01_Unrar_Files.ktr
 Objetivo: Descomprimir archivos .rar en la carpeta </note>
-      <xloc>224</xloc>
+      <xloc>240</xloc>
       <yloc>224</yloc>
       <width>277</width>
       <heigth>42</heigth>
@@ -553,13 +528,15 @@ Objetivo: Descomprimir archivos .rar en la carpeta </note>
       <drawshadow>Y</drawshadow>
     </notepad>
     <notepad>
-      <note>Paso 3. Crear Transformación: 03_Generate_Filenames.ktr
-Objetivo: Generar nombres de archivos esperados según las tablas de referencia.
+      <note>Paso 2. Crear Transformación: 02_Generate_Filenames.ktr
+Objetivo: Generar nombres de archivos esperados según 
+las tablas de referencia, Servicios,  Productos cuando los
+periodos están abiertos
 </note>
-      <xloc>912</xloc>
-      <yloc>224</yloc>
-      <width>431</width>
-      <heigth>57</heigth>
+      <xloc>736</xloc>
+      <yloc>208</yloc>
+      <width>310</width>
+      <heigth>89</heigth>
       <fontname>Segoe UI</fontname>
       <fontsize>9</fontsize>
       <fontbold>N</fontbold>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transformation>
   <info>
-    <name>03_Generate_Filenames</name>
+    <name>Pruebas02</name>
     <description/>
     <extended_description/>
     <trans_version/>
@@ -428,46 +428,22 @@
     <clusterschemas>
     </clusterschemas>
     <created_user>-</created_user>
-    <created_date>2025/02/02 17:01:22.977</created_date>
+    <created_date>2024/12/01 19:40:36.310</created_date>
     <modified_user>-</modified_user>
-    <modified_date>2025/02/02 17:01:22.977</modified_date>
+    <modified_date>2024/12/01 19:40:36.310</modified_date>
     <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA=</key_for_session_key>
     <is_key_private>N</is_key_private>
   </info>
   <notepads>
     <notepad>
-      <note>3. Generar Combinaciones de Nombres de Archivos
-Transformación: 03_Generate_Filenames.ktr
-Objetivo: Generar todas las combinaciones posibles de nombres de archivos.</note>
-      <xloc>304</xloc>
-      <yloc>96</yloc>
-      <width>413</width>
-      <heigth>58</heigth>
-      <fontname>Segoe UI</fontname>
-      <fontsize>9</fontsize>
-      <fontbold>N</fontbold>
-      <fontitalic>N</fontitalic>
-      <fontcolorred>0</fontcolorred>
-      <fontcolorgreen>0</fontcolorgreen>
-      <fontcolorblue>0</fontcolorblue>
-      <backgroundcolorred>0</backgroundcolorred>
-      <backgroundcolorgreen>255</backgroundcolorgreen>
-      <backgroundcolorblue>0</backgroundcolorblue>
-      <bordercolorred>100</bordercolorred>
-      <bordercolorgreen>100</bordercolorgreen>
-      <bordercolorblue>100</bordercolorblue>
-      <drawshadow>Y</drawshadow>
-    </notepad>
-    <notepad>
-      <note>3.1 Table Input (Códigos Referenciales)
-SELECT cod_serdeco FROM codigo_referencial
+      <note>1.1 Transformación: Generación de Nombres de Archivos
+            (Trans Generación de Nombres de Archivos)
 
-
-</note>
-      <xloc>352</xloc>
-      <yloc>224</yloc>
-      <width>253</width>
-      <heigth>87</heigth>
+                 </note>
+      <xloc>384</xloc>
+      <yloc>64</yloc>
+      <width>310</width>
+      <heigth>73</heigth>
       <fontname>Segoe UI</fontname>
       <fontsize>9</fontsize>
       <fontbold>N</fontbold>
@@ -484,55 +460,10 @@ SELECT cod_serdeco FROM codigo_referencial
       <drawshadow>Y</drawshadow>
     </notepad>
     <notepad>
-      <note>3.2 Table Input (Servicios) | Consulta:
-SELECT cod_servicio FROM servicio</note>
-      <xloc>640</xloc>
-      <yloc>224</yloc>
-      <width>202</width>
-      <heigth>42</heigth>
-      <fontname>Segoe UI</fontname>
-      <fontsize>9</fontsize>
-      <fontbold>N</fontbold>
-      <fontitalic>N</fontitalic>
-      <fontcolorred>0</fontcolorred>
-      <fontcolorgreen>0</fontcolorgreen>
-      <fontcolorblue>0</fontcolorblue>
-      <backgroundcolorred>0</backgroundcolorred>
-      <backgroundcolorgreen>255</backgroundcolorgreen>
-      <backgroundcolorblue>0</backgroundcolorblue>
-      <bordercolorred>100</bordercolorred>
-      <bordercolorgreen>100</bordercolorgreen>
-      <bordercolorblue>100</bordercolorblue>
-      <drawshadow>Y</drawshadow>
-    </notepad>
-    <notepad>
-      <note>3.3  Table Input (Productos) 
-SELECT cod_producto FROM producto;
-</note>
-      <xloc>880</xloc>
-      <yloc>224</yloc>
-      <width>216</width>
-      <heigth>57</heigth>
-      <fontname>Segoe UI</fontname>
-      <fontsize>9</fontsize>
-      <fontbold>N</fontbold>
-      <fontitalic>N</fontitalic>
-      <fontcolorred>0</fontcolorred>
-      <fontcolorgreen>0</fontcolorgreen>
-      <fontcolorblue>0</fontcolorblue>
-      <backgroundcolorred>0</backgroundcolorred>
-      <backgroundcolorgreen>255</backgroundcolorgreen>
-      <backgroundcolorblue>0</backgroundcolorblue>
-      <bordercolorred>100</bordercolorred>
-      <bordercolorgreen>100</bordercolorgreen>
-      <bordercolorblue>100</bordercolorblue>
-      <drawshadow>Y</drawshadow>
-    </notepad>
-    <notepad>
-      <note>3.4  Cartesian Product | Combinar las 3 entradas anteriores para generar todas las combinaciones posibles.</note>
-      <xloc>256</xloc>
-      <yloc>480</yloc>
-      <width>567</width>
+      <note>Paso 1-  Armado_Archivo</note>
+      <xloc>448</xloc>
+      <yloc>16</yloc>
+      <width>145</width>
       <heigth>26</heigth>
       <fontname>Segoe UI</fontname>
       <fontsize>9</fontsize>
@@ -541,44 +472,20 @@ SELECT cod_producto FROM producto;
       <fontcolorred>0</fontcolorred>
       <fontcolorgreen>0</fontcolorgreen>
       <fontcolorblue>0</fontcolorblue>
-      <backgroundcolorred>0</backgroundcolorred>
+      <backgroundcolorred>128</backgroundcolorred>
       <backgroundcolorgreen>255</backgroundcolorgreen>
-      <backgroundcolorblue>0</backgroundcolorblue>
+      <backgroundcolorblue>128</backgroundcolorblue>
       <bordercolorred>100</bordercolorred>
       <bordercolorgreen>100</bordercolorgreen>
       <bordercolorblue>100</bordercolorblue>
       <drawshadow>Y</drawshadow>
     </notepad>
     <notepad>
-      <note>3.5 JavaScript | Generar nombre de archivo
-</note>
-      <xloc>352</xloc>
-      <yloc>688</yloc>
-      <width>234</width>
-      <heigth>41</heigth>
-      <fontname>Segoe UI</fontname>
-      <fontsize>9</fontsize>
-      <fontbold>N</fontbold>
-      <fontitalic>N</fontitalic>
-      <fontcolorred>0</fontcolorred>
-      <fontcolorgreen>0</fontcolorgreen>
-      <fontcolorblue>0</fontcolorblue>
-      <backgroundcolorred>0</backgroundcolorred>
-      <backgroundcolorgreen>255</backgroundcolorgreen>
-      <backgroundcolorblue>0</backgroundcolorblue>
-      <bordercolorred>100</bordercolorred>
-      <bordercolorgreen>100</bordercolorgreen>
-      <bordercolorblue>100</bordercolorblue>
-      <drawshadow>Y</drawshadow>
-    </notepad>
-    <notepad>
-      <note>3.0. Get Rows from Result
-Este paso recibe los datos (cod_serdeco y periodos) 
-enviados desde el Job.</note>
+      <note>1.2  Crear una nueva Transformación:</note>
       <xloc>32</xloc>
-      <yloc>224</yloc>
-      <width>283</width>
-      <heigth>58</heigth>
+      <yloc>192</yloc>
+      <width>205</width>
+      <heigth>26</heigth>
       <fontname>Segoe UI</fontname>
       <fontsize>9</fontsize>
       <fontbold>N</fontbold>
@@ -586,19 +493,19 @@ enviados desde el Job.</note>
       <fontcolorred>0</fontcolorred>
       <fontcolorgreen>0</fontcolorgreen>
       <fontcolorblue>0</fontcolorblue>
-      <backgroundcolorred>0</backgroundcolorred>
+      <backgroundcolorred>128</backgroundcolorred>
       <backgroundcolorgreen>255</backgroundcolorgreen>
-      <backgroundcolorblue>0</backgroundcolorblue>
+      <backgroundcolorblue>128</backgroundcolorblue>
       <bordercolorred>100</bordercolorred>
       <bordercolorgreen>100</bordercolorgreen>
       <bordercolorblue>100</bordercolorblue>
       <drawshadow>Y</drawshadow>
     </notepad>
     <notepad>
-      <note>debo recibir cod_serdeco</note>
-      <xloc>240</xloc>
-      <yloc>416</yloc>
-      <width>143</width>
+      <note>1.3 Conexión y Entrada de Base de Datos.</note>
+      <xloc>288</xloc>
+      <yloc>192</yloc>
+      <width>226</width>
       <heigth>26</heigth>
       <fontname>Segoe UI</fontname>
       <fontsize>9</fontsize>
@@ -607,19 +514,19 @@ enviados desde el Job.</note>
       <fontcolorred>0</fontcolorred>
       <fontcolorgreen>0</fontcolorgreen>
       <fontcolorblue>0</fontcolorblue>
-      <backgroundcolorred>255</backgroundcolorred>
-      <backgroundcolorgreen>205</backgroundcolorgreen>
-      <backgroundcolorblue>112</backgroundcolorblue>
+      <backgroundcolorred>128</backgroundcolorred>
+      <backgroundcolorgreen>255</backgroundcolorgreen>
+      <backgroundcolorblue>128</backgroundcolorblue>
       <bordercolorred>100</bordercolorred>
       <bordercolorgreen>100</bordercolorgreen>
       <bordercolorblue>100</bordercolorblue>
       <drawshadow>Y</drawshadow>
     </notepad>
     <notepad>
-      <note>debo recibir cod_serdeco, periodo_folder y fecha_corte</note>
-      <xloc>112</xloc>
-      <yloc>768</yloc>
-      <width>299</width>
+      <note>1.4 Crear el script de JavaScrip</note>
+      <xloc>592</xloc>
+      <yloc>192</yloc>
+      <width>168</width>
       <heigth>26</heigth>
       <fontname>Segoe UI</fontname>
       <fontsize>9</fontsize>
@@ -628,9 +535,135 @@ enviados desde el Job.</note>
       <fontcolorred>0</fontcolorred>
       <fontcolorgreen>0</fontcolorgreen>
       <fontcolorblue>0</fontcolorblue>
-      <backgroundcolorred>255</backgroundcolorred>
-      <backgroundcolorgreen>205</backgroundcolorgreen>
-      <backgroundcolorblue>112</backgroundcolorblue>
+      <backgroundcolorred>128</backgroundcolorred>
+      <backgroundcolorgreen>255</backgroundcolorgreen>
+      <backgroundcolorblue>128</backgroundcolorblue>
+      <bordercolorred>100</bordercolorred>
+      <bordercolorgreen>100</bordercolorgreen>
+      <bordercolorblue>100</bordercolorblue>
+      <drawshadow>Y</drawshadow>
+    </notepad>
+    <notepad>
+      <note>1.5 Crea un nuevo paso "Excel Output"</note>
+      <xloc>848</xloc>
+      <yloc>192</yloc>
+      <width>214</width>
+      <heigth>26</heigth>
+      <fontname>Segoe UI</fontname>
+      <fontsize>9</fontsize>
+      <fontbold>N</fontbold>
+      <fontitalic>N</fontitalic>
+      <fontcolorred>0</fontcolorred>
+      <fontcolorgreen>0</fontcolorgreen>
+      <fontcolorblue>0</fontcolorblue>
+      <backgroundcolorred>128</backgroundcolorred>
+      <backgroundcolorgreen>255</backgroundcolorgreen>
+      <backgroundcolorblue>128</backgroundcolorblue>
+      <bordercolorred>100</bordercolorred>
+      <bordercolorgreen>100</bordercolorgreen>
+      <bordercolorblue>100</bordercolorblue>
+      <drawshadow>Y</drawshadow>
+    </notepad>
+    <notepad>
+      <note>Paso 2 - Lectura de Archivos</note>
+      <xloc>448</xloc>
+      <yloc>336</yloc>
+      <width>160</width>
+      <heigth>26</heigth>
+      <fontname>Segoe UI</fontname>
+      <fontsize>9</fontsize>
+      <fontbold>N</fontbold>
+      <fontitalic>N</fontitalic>
+      <fontcolorred>0</fontcolorred>
+      <fontcolorgreen>0</fontcolorgreen>
+      <fontcolorblue>0</fontcolorblue>
+      <backgroundcolorred>128</backgroundcolorred>
+      <backgroundcolorgreen>255</backgroundcolorgreen>
+      <backgroundcolorblue>255</backgroundcolorblue>
+      <bordercolorred>100</bordercolorred>
+      <bordercolorgreen>100</bordercolorgreen>
+      <bordercolorblue>100</bordercolorblue>
+      <drawshadow>Y</drawshadow>
+    </notepad>
+    <notepad>
+      <note>2.2. Crear un paso "Javascript"</note>
+      <xloc>304</xloc>
+      <yloc>400</yloc>
+      <width>168</width>
+      <heigth>26</heigth>
+      <fontname>Segoe UI</fontname>
+      <fontsize>9</fontsize>
+      <fontbold>N</fontbold>
+      <fontitalic>N</fontitalic>
+      <fontcolorred>0</fontcolorred>
+      <fontcolorgreen>0</fontcolorgreen>
+      <fontcolorblue>0</fontcolorblue>
+      <backgroundcolorred>128</backgroundcolorred>
+      <backgroundcolorgreen>255</backgroundcolorgreen>
+      <backgroundcolorblue>255</backgroundcolorblue>
+      <bordercolorred>100</bordercolorred>
+      <bordercolorgreen>100</bordercolorgreen>
+      <bordercolorblue>100</bordercolorblue>
+      <drawshadow>Y</drawshadow>
+    </notepad>
+    <notepad>
+      <note>2.3. Crear un paso "Text File Input"</note>
+      <xloc>592</xloc>
+      <yloc>400</yloc>
+      <width>190</width>
+      <heigth>26</heigth>
+      <fontname>Segoe UI</fontname>
+      <fontsize>9</fontsize>
+      <fontbold>N</fontbold>
+      <fontitalic>N</fontitalic>
+      <fontcolorred>0</fontcolorred>
+      <fontcolorgreen>0</fontcolorgreen>
+      <fontcolorblue>0</fontcolorblue>
+      <backgroundcolorred>128</backgroundcolorred>
+      <backgroundcolorgreen>255</backgroundcolorgreen>
+      <backgroundcolorblue>255</backgroundcolorblue>
+      <bordercolorred>100</bordercolorred>
+      <bordercolorgreen>100</bordercolorgreen>
+      <bordercolorblue>100</bordercolorblue>
+      <drawshadow>Y</drawshadow>
+    </notepad>
+    <notepad>
+      <note>2.4. Crear un paso "Table Output"</note>
+      <xloc>864</xloc>
+      <yloc>400</yloc>
+      <width>185</width>
+      <heigth>26</heigth>
+      <fontname>Segoe UI</fontname>
+      <fontsize>9</fontsize>
+      <fontbold>N</fontbold>
+      <fontitalic>N</fontitalic>
+      <fontcolorred>0</fontcolorred>
+      <fontcolorgreen>0</fontcolorgreen>
+      <fontcolorblue>0</fontcolorblue>
+      <backgroundcolorred>128</backgroundcolorred>
+      <backgroundcolorgreen>255</backgroundcolorgreen>
+      <backgroundcolorblue>255</backgroundcolorblue>
+      <bordercolorred>100</bordercolorred>
+      <bordercolorgreen>100</bordercolorgreen>
+      <bordercolorblue>100</bordercolorblue>
+      <drawshadow>Y</drawshadow>
+    </notepad>
+    <notepad>
+      <note>2.1. Crear el paso "Excel Input"</note>
+      <xloc>48</xloc>
+      <yloc>400</yloc>
+      <width>170</width>
+      <heigth>26</heigth>
+      <fontname>Segoe UI</fontname>
+      <fontsize>9</fontsize>
+      <fontbold>N</fontbold>
+      <fontitalic>N</fontitalic>
+      <fontcolorred>0</fontcolorred>
+      <fontcolorgreen>0</fontcolorgreen>
+      <fontcolorblue>0</fontcolorblue>
+      <backgroundcolorred>128</backgroundcolorred>
+      <backgroundcolorgreen>255</backgroundcolorgreen>
+      <backgroundcolorblue>255</backgroundcolorblue>
       <bordercolorred>100</bordercolorred>
       <bordercolorgreen>100</bordercolorgreen>
       <bordercolorblue>100</bordercolorblue>
@@ -638,7 +671,7 @@ enviados desde el Job.</note>
     </notepad>
   </notepads>
   <connection>
-    <name>Serdeco_Resumen</name>
+    <name>salesDBconnection</name>
     <server>127.1.1.0</server>
     <type>POSTGRESQL</type>
     <access>Native</access>
@@ -676,11 +709,11 @@ enviados desde el Job.</note>
       </attribute>
       <attribute>
         <code>SUPPORTS_BOOLEAN_DATA_TYPE</code>
-        <attribute>Y</attribute>
+        <attribute>N</attribute>
       </attribute>
       <attribute>
         <code>SUPPORTS_TIMESTAMP_DATA_TYPE</code>
-        <attribute>Y</attribute>
+        <attribute>N</attribute>
       </attribute>
       <attribute>
         <code>USE_POOLING</code>
@@ -690,40 +723,20 @@ enviados desde el Job.</note>
   </connection>
   <order>
     <hop>
-      <from> Table Input_Códigos Referenciales</from>
-      <to>Join rows (cartesian product)</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Table Input_Servicios</from>
-      <to>Join rows (cartesian product)</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Table Input_Productos</from>
-      <to>Join rows (cartesian product)</to>
-      <enabled>N</enabled>
-    </hop>
-    <hop>
-      <from>Join rows (cartesian product)</from>
-      <to>Modified JavaScript value_Generar nombre de archivo</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Get rows from result</from>
+      <from>Entrada de base de datos</from>
       <to>Modified JavaScript value</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
       <from>Modified JavaScript value</from>
-      <to> Table Input_Códigos Referenciales</to>
+      <to>Microsoft Excel output</to>
       <enabled>Y</enabled>
     </hop>
   </order>
   <step>
-    <name> Table Input_Códigos Referenciales</name>
+    <name>Entrada de base de datos</name>
     <type>TableInput</type>
-    <description/>
+    <description>Entrada de base de datos</description>
     <distribute>Y</distribute>
     <custom_distribution/>
     <copies>1</copies>
@@ -731,25 +744,34 @@ enviados desde el Job.</note>
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <connection>Serdeco_Resumen</connection>
-    <sql>${SQL_Query}
-</sql>
+    <connection>salesDBconnection</connection>
+    <sql>SELECT 
+    p.fecha_corte,
+    p.estatus,
+    cr.cod_serdeco,
+    s.cod_servicio,
+    pr.cod_producto
+FROM periodo_procesado p
+INNER JOIN codigo_referencial cr ON p.cod_serdeco = cr.cod_serdeco
+INNER JOIN servicio s ON cr.id_servicio = s.id
+CROSS JOIN producto pr
+WHERE p.estatus = true </sql>
     <limit>0</limit>
-    <lookup>Modified JavaScript value</lookup>
+    <lookup/>
     <execute_each_row>N</execute_each_row>
     <variables_active>Y</variables_active>
-    <lazy_conversion_active>N</lazy_conversion_active>
-    <cached_row_meta_active>N</cached_row_meta_active>
+    <lazy_conversion_active>Y</lazy_conversion_active>
+    <cached_row_meta_active>Y</cached_row_meta_active>
     <row-meta>
       <value-meta>
-        <type>Integer</type>
+        <type>Date</type>
         <storagetype>normal</storagetype>
-        <name>id</name>
-        <length>9</length>
-        <precision>0</precision>
-        <origin> Table Input_Códigos Referenciales</origin>
-        <comments>id</comments>
-        <conversion_Mask>####0;-####0</conversion_Mask>
+        <name>fecha_corte</name>
+        <length>-1</length>
+        <precision>-1</precision>
+        <origin>Entrada de base de datos</origin>
+        <comments>fecha_corte</comments>
+        <conversion_Mask/>
         <decimal_symbol>,</decimal_symbol>
         <grouping_symbol>.</grouping_symbol>
         <currency_symbol/>
@@ -765,13 +787,13 @@ enviados desde el Job.</note>
         <lenient_string_to_number>N</lenient_string_to_number>
       </value-meta>
       <value-meta>
-        <type>String</type>
+        <type>Boolean</type>
         <storagetype>normal</storagetype>
-        <name>cod_serdeco</name>
-        <length>10</length>
+        <name>estatus</name>
+        <length>-1</length>
         <precision>-1</precision>
-        <origin> Table Input_Códigos Referenciales</origin>
-        <comments>cod_serdeco</comments>
+        <origin>Entrada de base de datos</origin>
+        <comments>estatus</comments>
         <conversion_Mask/>
         <decimal_symbol>,</decimal_symbol>
         <grouping_symbol>.</grouping_symbol>
@@ -790,11 +812,11 @@ enviados desde el Job.</note>
       <value-meta>
         <type>Integer</type>
         <storagetype>normal</storagetype>
-        <name>id_condicion_facturacion</name>
-        <length>9</length>
+        <name>cod_serdeco</name>
+        <length>15</length>
         <precision>0</precision>
-        <origin> Table Input_Códigos Referenciales</origin>
-        <comments>id_condicion_facturacion</comments>
+        <origin>Entrada de base de datos</origin>
+        <comments>cod_serdeco</comments>
         <conversion_Mask>####0;-####0</conversion_Mask>
         <decimal_symbol>,</decimal_symbol>
         <grouping_symbol>.</grouping_symbol>
@@ -811,239 +833,85 @@ enviados desde el Job.</note>
         <lenient_string_to_number>N</lenient_string_to_number>
       </value-meta>
       <value-meta>
-        <type>Integer</type>
-        <storagetype>normal</storagetype>
-        <name>id_servicio</name>
-        <length>9</length>
-        <precision>0</precision>
-        <origin> Table Input_Códigos Referenciales</origin>
-        <comments>id_servicio</comments>
-        <conversion_Mask>####0;-####0</conversion_Mask>
-        <decimal_symbol>,</decimal_symbol>
-        <grouping_symbol>.</grouping_symbol>
-        <currency_symbol/>
-        <trim_type>none</trim_type>
-        <case_insensitive>N</case_insensitive>
-        <collator_disabled>Y</collator_disabled>
-        <collator_strength>0</collator_strength>
-        <sort_descending>N</sort_descending>
-        <output_padding>N</output_padding>
-        <date_format_lenient>N</date_format_lenient>
-        <date_format_locale>es_VE</date_format_locale>
-        <date_format_timezone>America/Caracas</date_format_timezone>
-        <lenient_string_to_number>N</lenient_string_to_number>
-      </value-meta>
-      <value-meta>
-        <type>Integer</type>
-        <storagetype>normal</storagetype>
-        <name>id_empresa_contable</name>
-        <length>9</length>
-        <precision>0</precision>
-        <origin> Table Input_Códigos Referenciales</origin>
-        <comments>id_empresa_contable</comments>
-        <conversion_Mask>####0;-####0</conversion_Mask>
-        <decimal_symbol>,</decimal_symbol>
-        <grouping_symbol>.</grouping_symbol>
-        <currency_symbol/>
-        <trim_type>none</trim_type>
-        <case_insensitive>N</case_insensitive>
-        <collator_disabled>Y</collator_disabled>
-        <collator_strength>0</collator_strength>
-        <sort_descending>N</sort_descending>
-        <output_padding>N</output_padding>
-        <date_format_lenient>N</date_format_lenient>
-        <date_format_locale>es_VE</date_format_locale>
-        <date_format_timezone>America/Caracas</date_format_timezone>
-        <lenient_string_to_number>N</lenient_string_to_number>
-      </value-meta>
-    </row-meta>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>464</xloc>
-      <yloc>336</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Join rows (cartesian product)</name>
-    <type>JoinRows</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <directory>%%java.io.tmpdir%%</directory>
-    <prefix>out</prefix>
-    <cache_size>500</cache_size>
-    <main/>
-    <compare>
-      <condition>
-        <negated>N</negated>
-        <leftvalue/>
-        <function>=</function>
-        <rightvalue/>
-      </condition>
-    </compare>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>464</xloc>
-      <yloc>576</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Modified JavaScript value</name>
-    <type>ScriptValueMod</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <compatible>N</compatible>
-    <optimizationLevel>9</optimizationLevel>
-    <jsScripts>
-      <jsScript>
-        <jsScript_type>0</jsScript_type>
-        <jsScript_name>Script 1</jsScript_name>
-        <jsScript_script>//Script here
-
-var SQL_Query = "SELECT * FROM codigo_referencial WHERE cod_serdeco = " + cod_serdeco + ";";</jsScript_script>
-      </jsScript>
-    </jsScripts>
-    <fields>    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>80</xloc>
-      <yloc>528</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Modified JavaScript value_Generar nombre de archivo</name>
-    <type>ScriptValueMod</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <compatible>N</compatible>
-    <optimizationLevel>9</optimizationLevel>
-    <jsScripts>
-      <jsScript>
-        <jsScript_type>0</jsScript_type>
-        <jsScript_name>Script 1</jsScript_name>
-        <jsScript_script>// Obtener periodo_folder y fecha_corte desde el flujo (no variables globales)
-
-//
- var periodo_folder = periodo_folder; // Campo del flujo (ej: "2024-12")
- var fechaCorte = new Date(fecha_corte); // Campo del flujo
-
-// Formatear componentes de fecha
- var year = fechaCorte.getFullYear().toString();
- var month = ("0" + (fechaCorte.getMonth() + 1)).slice(-2);
- var day = ("0" + fechaCorte.getDate()).slice(-2);
-
- Fechas para el nombre del archivo
- var fecha1 = year + month + day; // yyyymmdd
- var fecha2 = year + month + "??"; // yyyymm??
-
-// Ruta completa de la carpeta (sin cod_serdeco)
- var rutaBase = "c:/serdeco/fospuca/" + periodo_folder + "/";
-
-
-// Nombre del archivo (incluye cod_serdeco)
-var generated_filename = 
-    cod_serdeco + "-" + 
-    cod_servicio + "-" + 
-    cod_producto + "-" + 
-    fecha1 + "-" + 
-    fecha2 + ".txt";
-
-// Ruta completa del archivo
-var rutaCompleta = rutaBase + generated_filename;</jsScript_script>
-      </jsScript>
-    </jsScripts>
-    <fields>
-      <field>
-        <name>generated_filename</name>
-        <rename>generated_filename</rename>
         <type>String</type>
-        <length>-1</length>
+        <storagetype>binary-string</storagetype>
+        <storage-meta>
+          <value-meta>
+            <type>String</type>
+            <storagetype>normal</storagetype>
+            <name>cod_servicio</name>
+            <length>4</length>
+            <precision>-1</precision>
+            <origin>Entrada de base de datos</origin>
+            <comments>cod_servicio</comments>
+            <conversion_Mask/>
+            <decimal_symbol>,</decimal_symbol>
+            <grouping_symbol>.</grouping_symbol>
+            <currency_symbol/>
+            <trim_type>none</trim_type>
+            <case_insensitive>N</case_insensitive>
+            <collator_disabled>Y</collator_disabled>
+            <collator_strength>0</collator_strength>
+            <sort_descending>N</sort_descending>
+            <output_padding>N</output_padding>
+            <date_format_lenient>N</date_format_lenient>
+            <date_format_locale>es_VE</date_format_locale>
+            <date_format_timezone>America/Caracas</date_format_timezone>
+            <lenient_string_to_number>N</lenient_string_to_number>
+          </value-meta>
+        </storage-meta>
+        <name>cod_servicio</name>
+        <length>4</length>
         <precision>-1</precision>
-        <replace>N</replace>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>464</xloc>
-      <yloc>784</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Table Input_Productos</name>
-    <type>TableInput</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <connection>Serdeco_Resumen</connection>
-    <sql>SELECT cod_producto FROM producto</sql>
-    <limit>0</limit>
-    <lookup/>
-    <execute_each_row>N</execute_each_row>
-    <variables_active>N</variables_active>
-    <lazy_conversion_active>N</lazy_conversion_active>
-    <cached_row_meta_active>N</cached_row_meta_active>
-    <row-meta>
+        <origin>Entrada de base de datos</origin>
+        <comments>cod_servicio</comments>
+        <conversion_Mask/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol>.</grouping_symbol>
+        <currency_symbol/>
+        <trim_type>none</trim_type>
+        <case_insensitive>N</case_insensitive>
+        <collator_disabled>Y</collator_disabled>
+        <collator_strength>0</collator_strength>
+        <sort_descending>N</sort_descending>
+        <output_padding>N</output_padding>
+        <date_format_lenient>N</date_format_lenient>
+        <date_format_locale>es_VE</date_format_locale>
+        <date_format_timezone>America/Caracas</date_format_timezone>
+        <lenient_string_to_number>N</lenient_string_to_number>
+      </value-meta>
       <value-meta>
         <type>String</type>
-        <storagetype>normal</storagetype>
+        <storagetype>binary-string</storagetype>
+        <storage-meta>
+          <value-meta>
+            <type>String</type>
+            <storagetype>normal</storagetype>
+            <name>cod_producto</name>
+            <length>4</length>
+            <precision>-1</precision>
+            <origin>Entrada de base de datos</origin>
+            <comments>cod_producto</comments>
+            <conversion_Mask/>
+            <decimal_symbol>,</decimal_symbol>
+            <grouping_symbol>.</grouping_symbol>
+            <currency_symbol/>
+            <trim_type>none</trim_type>
+            <case_insensitive>N</case_insensitive>
+            <collator_disabled>Y</collator_disabled>
+            <collator_strength>0</collator_strength>
+            <sort_descending>N</sort_descending>
+            <output_padding>N</output_padding>
+            <date_format_lenient>N</date_format_lenient>
+            <date_format_locale>es_VE</date_format_locale>
+            <date_format_timezone>America/Caracas</date_format_timezone>
+            <lenient_string_to_number>N</lenient_string_to_number>
+          </value-meta>
+        </storage-meta>
         <name>cod_producto</name>
         <length>4</length>
         <precision>-1</precision>
-        <origin>Table input</origin>
+        <origin>Entrada de base de datos</origin>
         <comments>cod_producto</comments>
         <conversion_Mask/>
         <decimal_symbol>,</decimal_symbol>
@@ -1070,14 +938,14 @@ var rutaCompleta = rutaBase + generated_filename;</jsScript_script>
       </output>
     </remotesteps>
     <GUI>
-      <xloc>960</xloc>
-      <yloc>304</yloc>
+      <xloc>336</xloc>
+      <yloc>256</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>Table Input_Servicios</name>
-    <type>TableInput</type>
+    <name>Microsoft Excel output</name>
+    <type>ExcelOutput</type>
     <description/>
     <distribute>Y</distribute>
     <custom_distribution/>
@@ -1086,39 +954,59 @@ var rutaCompleta = rutaBase + generated_filename;</jsScript_script>
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <connection>Serdeco_Resumen</connection>
-    <sql>SELECT cod_servicio FROM servicio</sql>
-    <limit>0</limit>
-    <lookup/>
-    <execute_each_row>N</execute_each_row>
-    <variables_active>N</variables_active>
-    <lazy_conversion_active>N</lazy_conversion_active>
-    <cached_row_meta_active>N</cached_row_meta_active>
-    <row-meta>
-      <value-meta>
+    <header>Y</header>
+    <footer>N</footer>
+    <encoding/>
+    <append>N</append>
+    <add_to_result_filenames>Y</add_to_result_filenames>
+    <file>
+      <name>C:\Serdeco\fospuca\archivos_a_armar.xls</name>
+      <extention>xls</extention>
+      <do_not_open_newfile_init>N</do_not_open_newfile_init>
+      <create_parent_folder>N</create_parent_folder>
+      <split>N</split>
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <SpecifyFormat>N</SpecifyFormat>
+      <date_time_format/>
+      <sheetname>Sheet1</sheetname>
+      <autosizecolums>N</autosizecolums>
+      <nullisblank>N</nullisblank>
+      <protect_sheet>N</protect_sheet>
+      <password>Encrypted </password>
+      <splitevery>0</splitevery>
+      <usetempfiles>N</usetempfiles>
+      <tempdirectory/>
+    </file>
+    <template>
+      <enabled>N</enabled>
+      <append>N</append>
+      <filename>template.xls</filename>
+    </template>
+    <fields>
+      <field>
+        <name>nombreArchivo</name>
         <type>String</type>
-        <storagetype>normal</storagetype>
-        <name>cod_servicio</name>
-        <length>4</length>
-        <precision>-1</precision>
-        <origin>Table input</origin>
-        <comments>cod_servicio</comments>
-        <conversion_Mask/>
-        <decimal_symbol>,</decimal_symbol>
-        <grouping_symbol>.</grouping_symbol>
-        <currency_symbol/>
-        <trim_type>none</trim_type>
-        <case_insensitive>N</case_insensitive>
-        <collator_disabled>Y</collator_disabled>
-        <collator_strength>0</collator_strength>
-        <sort_descending>N</sort_descending>
-        <output_padding>N</output_padding>
-        <date_format_lenient>N</date_format_lenient>
-        <date_format_locale>es_VE</date_format_locale>
-        <date_format_timezone>America/Caracas</date_format_timezone>
-        <lenient_string_to_number>N</lenient_string_to_number>
-      </value-meta>
-    </row-meta>
+        <format/>
+      </field>
+    </fields>
+    <custom>
+      <header_font_name>arial</header_font_name>
+      <header_font_size>10</header_font_size>
+      <header_font_bold>N</header_font_bold>
+      <header_font_italic>N</header_font_italic>
+      <header_font_underline>no</header_font_underline>
+      <header_font_orientation>horizontal</header_font_orientation>
+      <header_font_color>black</header_font_color>
+      <header_background_color>none</header_background_color>
+      <header_row_height>255</header_row_height>
+      <header_alignment>left</header_alignment>
+      <header_image/>
+      <row_font_name>arial</row_font_name>
+      <row_font_size>10</row_font_size>
+      <row_font_color>black</row_font_color>
+      <row_background_color>none</row_background_color>
+    </custom>
     <attributes/>
     <cluster_schema/>
     <remotesteps>
@@ -1128,14 +1016,14 @@ var rutaCompleta = rutaBase + generated_filename;</jsScript_script>
       </output>
     </remotesteps>
     <GUI>
-      <xloc>752</xloc>
-      <yloc>304</yloc>
+      <xloc>944</xloc>
+      <yloc>256</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>Get rows from result</name>
-    <type>RowsFromResult</type>
+    <name>Modified JavaScript value</name>
+    <type>ScriptValueMod</type>
     <description/>
     <distribute>Y</distribute>
     <custom_distribution/>
@@ -1144,7 +1032,87 @@ var rutaCompleta = rutaBase + generated_filename;</jsScript_script>
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <fields>      </fields>
+    <compatible>N</compatible>
+    <optimizationLevel>9</optimizationLevel>
+    <jsScripts>
+      <jsScript>
+        <jsScript_type>0</jsScript_type>
+        <jsScript_name>Script 1</jsScript_name>
+        <jsScript_script>//Script here
+
+var cMonth = (month(fecha_corte) &lt; 10) ? '0' + month(fecha_corte) : month(fecha_corte);
+var cFecha = getVariable("default_value",  year(fecha_corte)) + cMonth + "01";
+var nombreArchivo =   getVariable("default_value",  cod_serdeco )       + "-" +
+                      getVariable("default_value",  cod_servicio)       + "-" +
+                      getVariable("default_value",  cod_producto)       + "-" +
+                                                                cFecha + "-" +
+																cFecha + ".txt" ;
+var nombre_archivo = nombreArchivo;
+var rutaBase = "c:\\serdeco\\fospuca\\";
+var rutaCompleta = rutaBase + year(fecha_corte) + "-" + cMonth  + "\\" + nombreArchivo;
+nombre_archivo = rutaCompleta;
+
+</jsScript_script>
+      </jsScript>
+    </jsScripts>
+    <fields>
+      <field>
+        <name>nombre_archivo</name>
+        <rename>nombre_archivo</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>N</replace>
+      </field>
+      <field>
+        <name>cMonth</name>
+        <rename>cMonth</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>N</replace>
+      </field>
+      <field>
+        <name>cFecha</name>
+        <rename>cFecha</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>N</replace>
+      </field>
+      <field>
+        <name>nombreArchivo</name>
+        <rename>nombreArchivo</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>N</replace>
+      </field>
+      <field>
+        <name>nombre_archivo</name>
+        <rename>nombre_archivo</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>N</replace>
+      </field>
+      <field>
+        <name>rutaBase</name>
+        <rename>rutaBase</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>N</replace>
+      </field>
+      <field>
+        <name>rutaCompleta</name>
+        <rename>rutaCompleta</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>N</replace>
+      </field>
+    </fields>
     <attributes/>
     <cluster_schema/>
     <remotesteps>
@@ -1154,8 +1122,8 @@ var rutaCompleta = rutaBase + generated_filename;</jsScript_script>
       </output>
     </remotesteps>
     <GUI>
-      <xloc>80</xloc>
-      <yloc>352</yloc>
+      <xloc>640</xloc>
+      <yloc>256</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
