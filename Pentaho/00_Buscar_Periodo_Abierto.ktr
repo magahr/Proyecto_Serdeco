@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transformation>
   <info>
-    <name>02_Generate_Filenames</name>
+    <name>00_Buscar_Periodo_Abierto</name>
     <description/>
     <extended_description/>
     <trans_version/>
@@ -436,12 +436,12 @@
   </info>
   <notepads>
     <notepad>
-      <note>3. Generar Combinaciones de Nombres de Archivos
-Transformación: 03_Generate_Filenames.ktr
-Objetivo: Generar todas las combinaciones posibles de nombres de archivos.</note>
-      <xloc>304</xloc>
-      <yloc>96</yloc>
-      <width>413</width>
+      <note>0. Buscar la carpeta del periodo abierto.
+Transformación: 00_Buscar_Periodo_Abierto.ktr
+Objetivo: Generar carpeta del periodo abierto.</note>
+      <xloc>464</xloc>
+      <yloc>64</yloc>
+      <width>259</width>
       <heigth>58</heigth>
       <fontname>Segoe UI</fontname>
       <fontsize>9</fontsize>
@@ -485,6 +485,27 @@ Objetivo: Generar todas las combinaciones posibles de nombres de archivos.</note
       <xloc>16</xloc>
       <yloc>688</yloc>
       <width>299</width>
+      <heigth>26</heigth>
+      <fontname>Segoe UI</fontname>
+      <fontsize>9</fontsize>
+      <fontbold>N</fontbold>
+      <fontitalic>N</fontitalic>
+      <fontcolorred>0</fontcolorred>
+      <fontcolorgreen>0</fontcolorgreen>
+      <fontcolorblue>0</fontcolorblue>
+      <backgroundcolorred>255</backgroundcolorred>
+      <backgroundcolorgreen>205</backgroundcolorgreen>
+      <backgroundcolorblue>112</backgroundcolorblue>
+      <bordercolorred>100</bordercolorred>
+      <bordercolorgreen>100</bordercolorgreen>
+      <bordercolorblue>100</bordercolorblue>
+      <drawshadow>Y</drawshadow>
+    </notepad>
+    <notepad>
+      <note>aqui debe guardar la variable en algun lugar para que el resto de las transformaciones lo lean</note>
+      <xloc>148</xloc>
+      <yloc>345</yloc>
+      <width>497</width>
       <heigth>26</heigth>
       <fontname>Segoe UI</fontname>
       <fontsize>9</fontsize>
@@ -578,16 +599,10 @@ Objetivo: Generar todas las combinaciones posibles de nombres de archivos.</note
     </partitioning>
     <connection>Serdeco_Resumen02</connection>
     <sql>SELECT 
-    p.fecha_corte,
-    p.estatus,
-    cr.cod_serdeco,
-    s.cod_servicio,
-    pr.cod_producto
+    p.fecha_corte
 FROM periodo_procesado p
-INNER JOIN codigo_referencial cr ON p.cod_serdeco = cr.cod_serdeco
-CROSS JOIN servicio s -- Genera todas las combinaciones con la tabla servicio
-CROSS JOIN producto pr -- Genera todas las combinaciones con la tabla producto
-WHERE p.estatus = true</sql>
+WHERE p.estatus = true
+LIMIT 1;</sql>
     <limit>0</limit>
     <lookup/>
     <execute_each_row>N</execute_each_row>
@@ -603,173 +618,6 @@ WHERE p.estatus = true</sql>
         <precision>-1</precision>
         <origin>Entrada de base de datos</origin>
         <comments>fecha_corte</comments>
-        <conversion_Mask/>
-        <decimal_symbol>,</decimal_symbol>
-        <grouping_symbol>.</grouping_symbol>
-        <currency_symbol/>
-        <trim_type>none</trim_type>
-        <case_insensitive>N</case_insensitive>
-        <collator_disabled>Y</collator_disabled>
-        <collator_strength>0</collator_strength>
-        <sort_descending>N</sort_descending>
-        <output_padding>N</output_padding>
-        <date_format_lenient>N</date_format_lenient>
-        <date_format_locale>es_VE</date_format_locale>
-        <date_format_timezone>America/Caracas</date_format_timezone>
-        <lenient_string_to_number>N</lenient_string_to_number>
-      </value-meta>
-      <value-meta>
-        <type>Boolean</type>
-        <storagetype>normal</storagetype>
-        <name>estatus</name>
-        <length>-1</length>
-        <precision>-1</precision>
-        <origin>Entrada de base de datos</origin>
-        <comments>estatus</comments>
-        <conversion_Mask/>
-        <decimal_symbol>,</decimal_symbol>
-        <grouping_symbol>.</grouping_symbol>
-        <currency_symbol/>
-        <trim_type>none</trim_type>
-        <case_insensitive>N</case_insensitive>
-        <collator_disabled>Y</collator_disabled>
-        <collator_strength>0</collator_strength>
-        <sort_descending>N</sort_descending>
-        <output_padding>N</output_padding>
-        <date_format_lenient>N</date_format_lenient>
-        <date_format_locale>es_VE</date_format_locale>
-        <date_format_timezone>America/Caracas</date_format_timezone>
-        <lenient_string_to_number>N</lenient_string_to_number>
-      </value-meta>
-      <value-meta>
-        <type>String</type>
-        <storagetype>binary-string</storagetype>
-        <storage-meta>
-          <value-meta>
-            <type>String</type>
-            <storagetype>normal</storagetype>
-            <name>cod_serdeco</name>
-            <length>10</length>
-            <precision>-1</precision>
-            <origin>Entrada de base de datos</origin>
-            <comments>cod_serdeco</comments>
-            <conversion_Mask/>
-            <decimal_symbol>,</decimal_symbol>
-            <grouping_symbol>.</grouping_symbol>
-            <currency_symbol/>
-            <trim_type>none</trim_type>
-            <case_insensitive>N</case_insensitive>
-            <collator_disabled>Y</collator_disabled>
-            <collator_strength>0</collator_strength>
-            <sort_descending>N</sort_descending>
-            <output_padding>N</output_padding>
-            <date_format_lenient>N</date_format_lenient>
-            <date_format_locale>es_VE</date_format_locale>
-            <date_format_timezone>America/Caracas</date_format_timezone>
-            <lenient_string_to_number>N</lenient_string_to_number>
-          </value-meta>
-        </storage-meta>
-        <name>cod_serdeco</name>
-        <length>10</length>
-        <precision>-1</precision>
-        <origin>Entrada de base de datos</origin>
-        <comments>cod_serdeco</comments>
-        <conversion_Mask/>
-        <decimal_symbol>,</decimal_symbol>
-        <grouping_symbol>.</grouping_symbol>
-        <currency_symbol/>
-        <trim_type>none</trim_type>
-        <case_insensitive>N</case_insensitive>
-        <collator_disabled>Y</collator_disabled>
-        <collator_strength>0</collator_strength>
-        <sort_descending>N</sort_descending>
-        <output_padding>N</output_padding>
-        <date_format_lenient>N</date_format_lenient>
-        <date_format_locale>es_VE</date_format_locale>
-        <date_format_timezone>America/Caracas</date_format_timezone>
-        <lenient_string_to_number>N</lenient_string_to_number>
-      </value-meta>
-      <value-meta>
-        <type>String</type>
-        <storagetype>binary-string</storagetype>
-        <storage-meta>
-          <value-meta>
-            <type>String</type>
-            <storagetype>normal</storagetype>
-            <name>cod_servicio</name>
-            <length>4</length>
-            <precision>-1</precision>
-            <origin>Entrada de base de datos</origin>
-            <comments>cod_servicio</comments>
-            <conversion_Mask/>
-            <decimal_symbol>,</decimal_symbol>
-            <grouping_symbol>.</grouping_symbol>
-            <currency_symbol/>
-            <trim_type>none</trim_type>
-            <case_insensitive>N</case_insensitive>
-            <collator_disabled>Y</collator_disabled>
-            <collator_strength>0</collator_strength>
-            <sort_descending>N</sort_descending>
-            <output_padding>N</output_padding>
-            <date_format_lenient>N</date_format_lenient>
-            <date_format_locale>es_VE</date_format_locale>
-            <date_format_timezone>America/Caracas</date_format_timezone>
-            <lenient_string_to_number>N</lenient_string_to_number>
-          </value-meta>
-        </storage-meta>
-        <name>cod_servicio</name>
-        <length>4</length>
-        <precision>-1</precision>
-        <origin>Entrada de base de datos</origin>
-        <comments>cod_servicio</comments>
-        <conversion_Mask/>
-        <decimal_symbol>,</decimal_symbol>
-        <grouping_symbol>.</grouping_symbol>
-        <currency_symbol/>
-        <trim_type>none</trim_type>
-        <case_insensitive>N</case_insensitive>
-        <collator_disabled>Y</collator_disabled>
-        <collator_strength>0</collator_strength>
-        <sort_descending>N</sort_descending>
-        <output_padding>N</output_padding>
-        <date_format_lenient>N</date_format_lenient>
-        <date_format_locale>es_VE</date_format_locale>
-        <date_format_timezone>America/Caracas</date_format_timezone>
-        <lenient_string_to_number>N</lenient_string_to_number>
-      </value-meta>
-      <value-meta>
-        <type>String</type>
-        <storagetype>binary-string</storagetype>
-        <storage-meta>
-          <value-meta>
-            <type>String</type>
-            <storagetype>normal</storagetype>
-            <name>cod_producto</name>
-            <length>4</length>
-            <precision>-1</precision>
-            <origin>Entrada de base de datos</origin>
-            <comments>cod_producto</comments>
-            <conversion_Mask/>
-            <decimal_symbol>,</decimal_symbol>
-            <grouping_symbol>.</grouping_symbol>
-            <currency_symbol/>
-            <trim_type>none</trim_type>
-            <case_insensitive>N</case_insensitive>
-            <collator_disabled>Y</collator_disabled>
-            <collator_strength>0</collator_strength>
-            <sort_descending>N</sort_descending>
-            <output_padding>N</output_padding>
-            <date_format_lenient>N</date_format_lenient>
-            <date_format_locale>es_VE</date_format_locale>
-            <date_format_timezone>America/Caracas</date_format_timezone>
-            <lenient_string_to_number>N</lenient_string_to_number>
-          </value-meta>
-        </storage-meta>
-        <name>cod_producto</name>
-        <length>4</length>
-        <precision>-1</precision>
-        <origin>Entrada de base de datos</origin>
-        <comments>cod_producto</comments>
         <conversion_Mask/>
         <decimal_symbol>,</decimal_symbol>
         <grouping_symbol>.</grouping_symbol>
@@ -820,17 +668,11 @@ WHERE p.estatus = true</sql>
         <jsScript_script>//Script here
 
 var cMonth = (month(fecha_corte) &lt; 10) ? '0' + month(fecha_corte) : month(fecha_corte);
-var cFecha = getVariable("default_value",  year(fecha_corte)) + cMonth + "01";
-var nombreArchivo =   getVariable("default_value",  cod_serdeco )       + "-" +
-                      getVariable("default_value",  cod_servicio)       + "-" +
-                      getVariable("default_value",  cod_producto)       + "-" +
-                                                                cFecha + "-" +
-																cFecha + ".txt" ;
-var nombre_archivo = nombreArchivo;
 var rutaBase       = "c:\\serdeco\\fospuca\\";
 var rutaCompleta   = rutaBase + year(fecha_corte) + "-" + cMonth  + "\\" + nombreArchivo;
 var folder_periodo = year(fecha_corte) + "-" + cMonth
-nombre_archivo      = rutaCompleta;
+var nombreArchivo  = rutaCompleta;
+var nombre_archivo = rutaCompleta;
 
 </jsScript_script>
       </jsScript>

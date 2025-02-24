@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transformation>
   <info>
-    <name>02_Generate_Filenames</name>
+    <name>03_Generate_Filenames _Total</name>
     <description/>
     <extended_description/>
     <trans_version/>
@@ -586,8 +586,7 @@ Objetivo: Generar todas las combinaciones posibles de nombres de archivos.</note
 FROM periodo_procesado p
 INNER JOIN codigo_referencial cr ON p.cod_serdeco = cr.cod_serdeco
 CROSS JOIN servicio s -- Genera todas las combinaciones con la tabla servicio
-CROSS JOIN producto pr -- Genera todas las combinaciones con la tabla producto
-WHERE p.estatus = true</sql>
+CROSS JOIN producto pr -- Genera todas las combinaciones con la tabla producto</sql>
     <limit>0</limit>
     <lookup/>
     <execute_each_row>N</execute_each_row>

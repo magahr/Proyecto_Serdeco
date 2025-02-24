@@ -393,27 +393,12 @@
       <type>WRITE_TO_LOG</type>
       <attributes/>
       <logmessage/>
-      <loglevel/>
+      <loglevel>Basic</loglevel>
       <logsubject/>
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>576</xloc>
-      <yloc>336</yloc>
-      <attributes_kjc/>
-    </entry>
-    <entry>
-      <name>Write to log 2</name>
-      <description/>
-      <type>WRITE_TO_LOG</type>
-      <attributes/>
-      <logmessage/>
-      <loglevel/>
-      <logsubject/>
-      <parallel>N</parallel>
-      <draw>Y</draw>
-      <nr>0</nr>
-      <xloc>1136</xloc>
       <yloc>336</yloc>
       <attributes_kjc/>
     </entry>
@@ -440,15 +425,6 @@
     <hop>
       <from>Write to log</from>
       <to>02_Generate_Filenames</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>02_Generate_Filenames</from>
-      <to>Write to log 2</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -547,6 +523,31 @@ periodos están abiertos
       <backgroundcolorred>0</backgroundcolorred>
       <backgroundcolorgreen>255</backgroundcolorgreen>
       <backgroundcolorblue>0</backgroundcolorblue>
+      <bordercolorred>100</bordercolorred>
+      <bordercolorgreen>100</bordercolorgreen>
+      <bordercolorblue>100</bordercolorblue>
+      <drawshadow>Y</drawshadow>
+    </notepad>
+    <notepad>
+      <note>Condiciones:
+1.- Sólo deberá abierto un periodo. (aqui se mostrara mostrara todos las 
+     combinaciones      posibles para todos los municipios del mes)
+2.- Sólo se procesara el municipio que está abierto.
+3.- Se mostrará en un log cuales de los del punto 1 no están en el punto 2.</note>
+      <xloc>16</xloc>
+      <yloc>32</yloc>
+      <width>398</width>
+      <heigth>90</heigth>
+      <fontname>Segoe UI</fontname>
+      <fontsize>9</fontsize>
+      <fontbold>N</fontbold>
+      <fontitalic>N</fontitalic>
+      <fontcolorred>0</fontcolorred>
+      <fontcolorgreen>0</fontcolorgreen>
+      <fontcolorblue>0</fontcolorblue>
+      <backgroundcolorred>133</backgroundcolorred>
+      <backgroundcolorgreen>209</backgroundcolorgreen>
+      <backgroundcolorblue>235</backgroundcolorblue>
       <bordercolorred>100</bordercolorred>
       <bordercolorgreen>100</bordercolorgreen>
       <bordercolorblue>100</bordercolorblue>
